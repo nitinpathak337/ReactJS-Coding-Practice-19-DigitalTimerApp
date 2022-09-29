@@ -1,0 +1,131 @@
+/* Write your CSS here */
+.bg {
+  min-height: 100vh;
+  background-image: linear-gradient(#ffffff, #cffcf1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+.timer-bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  min-width: 40%;
+  background-size: cover;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.timer-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .timer-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .timer-bg {
+    height: 40vh;
+    width: 80%;
+  }
+}
+.timer-card {
+  background-color: white;
+  border-radius: 100px;
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.play-reset-button-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.play-reset-icon {
+  width: 30%;
+}
+.play-reset-button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  margin-right: 0px;
+}
+.minus-plus-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 48px;
+  color: #1e293b;
+}
+.timer {
+  color: #00d9f5;
+  font-family: 'Roboto';
+  font-size: 38px;
+}
+.status {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #0f172a;
+  margin-top: 0px;
+  font-weight: 600;
+}
+.para {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 24px;
+  margin-left: 10px;
+
+  font-weight: 600;
+}
+.cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.set-timer-limit {
+  font-family: 'Roboto';
+  font-size: 16px;
+  text-align: center;
+  margin-top: 30px;
+}
+.minus-plus-button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+  font-size: 30px;
+  color: #0f172a;
+}
+.limit {
+  background-image: linear-gradient(#defafe, #cffcf1, #00d9f5);
+  padding: 10px;
+  height: 40px;
+  width: 79px;
+  text-align: center;
+  border-radius: 4px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
